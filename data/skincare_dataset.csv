@@ -1,0 +1,101 @@
+SkinType,disease,cleanser,toner,serum,moisturizer,sunscreen,cleanser,treatment,moisturizer
+normal,hand eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,acne-papulopustulosa,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,acne-conglobata,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,hand eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+dry,acne-conglobata,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,acne-papulopustulosa,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+normal,malenoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+combination,subacute eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+dry,malenoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+dry,basalcellcarinoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,acne-comedonica,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+combination,subacute eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,acne-comedonica,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,chronic eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,hand eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,squamouscellcarcinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,acne-comedonica,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+normal,hand eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+normal,acne-comedonica,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,acne-conglobata,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+combination,squamouscellcarcinoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,subacute eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+dry,squamouscellcarcinoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+dry,acne-comedonica,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+oily,squamouscellcarcinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,chronic eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,chronic eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+dry,subacute eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+dry,acne-papulopustulosa,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+oily,malenoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,acne-conglobata,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,basalcellcarinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,malenoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,squamouscellcarcinoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+normal,squamouscellcarcinoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+normal,acne-conglobata,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,malenoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+oily,acne-conglobata,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+dry,acne-conglobata,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+dry,chronic eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,chronic eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,malenoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,acne-papulopustulosa,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,basalcellcarinoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+dry,chronic eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,malenoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,acne-papulopustulosa,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,malenoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,acne-conglobata,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+dry,malenoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+combination,subacute eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,acne-papulopustulosa,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+normal,subacute eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,acne-comedonica,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,basalcellcarinoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,basalcellcarinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,hand eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,subacute eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,acne-conglobata,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,chronic eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,acne-conglobata,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,squamouscellcarcinoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+combination,squamouscellcarcinoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,subacute eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,acne-comedonica,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,squamouscellcarcinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,acne-conglobata,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,malenoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,hand eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,acne-papulopustulosa,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,hand eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,acne-conglobata,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+dry,subacute eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+oily,acne-conglobata,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,hand eczema,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+normal,subacute eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,basalcellcarinoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,chronic eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+normal,hand eczema,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,hand eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,malenoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+dry,acne-papulopustulosa,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+normal,acne-conglobata,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,squamouscellcarcinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+oily,chronic eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+normal,acne-conglobata,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+oily,squamouscellcarcinoma,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+combination,squamouscellcarcinoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+combination,acne-conglobata,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+normal,malenoma,Gentle Cleanser,Balancing Toner,Vitamin C Serum,Light Moisturizer,Broad-Spectrum Sunscreen,Gentle Cleanser,Peptide Serum,Light Moisturizer
+combination,acne-comedonica,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer
+oily,chronic eczema,Foaming Cleanser,Oil-Free Toner,Niacinamide Serum,Gel Moisturizer,Matte Sunscreen,Foaming Cleanser,Retinol Serum,Oil-Free Moisturizer
+dry,subacute eczema,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+dry,malenoma,Cream Cleanser,Hydrating Toner,Hyaluronic Acid Serum,Rich Moisturizer,Hydrating Sunscreen,Cream Cleanser,Ceramide Serum,Rich Moisturizer
+combination,malenoma,Balancing Cleanser,Mild Toner,BHA Serum,Dual Moisturizer,SPF 50 Sunscreen,Balancing Cleanser,Niacinamide Serum,Gel Moisturizer

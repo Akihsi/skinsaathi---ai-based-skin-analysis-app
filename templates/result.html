@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Skin Analysis Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    .result-wrap { max-width: 960px; margin: 30px auto; background: rgba(255,255,255,.9); padding: 24px; border-radius: 12px; }
+    .products ul { margin-left: 18px; }
+    .imgbox img { max-width: 260px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.2); }
+  </style>
+</head>
+
+<body>
+  <div class="result-container">
+
+    <div class="result-text">
+
+      <h1>Analysis Result</h1>
+      <p><strong>Final Skin Type:</strong> {{ skin_type }}</p>
+      <p><strong>Detected Skin Disease:</strong> {{ skin_disease }}</p>
+
+      <div class="products">
+        <button class="toggle-btn" onclick="toggleRecommendations()">Recommended Skincare Products ▼</button>
+        <div id="recommendation-box" class="hidden">
+        {% if recommendations and recommendations|length > 0 %}
+          <ul>
+        {% for item in recommendations %}
+          <li>{{ item }}</li>
+        {% endfor %}
+          </ul>
+        {% else %}
+          <p>No exact recommendation found.</p>
+        {% endif %}
+        </div>
+      </div>
+
+    </div>
+
+    {% if image_filename %}
+      <div class="result-image">
+        <h3>Preview</h3>
+        <img src="{{ url_for('static', filename='uploads/' + image_filename) }}" alt="Face">
+      </div>
+    {% endif %}
+
+    <p style="margin-top:20px;">
+      <a class="back-btn" href="/">← Go Back</a>
+    </p>
+  </div>
+  <script>
+  function toggleRecommendations() {
+    const box = document.getElementById("recommendation-box");
+    const btn = document.querySelector(".toggle-btn");
+    const isHidden = box.classList.toggle("hidden");
+
+    // Update button text/icon
+    btn.innerHTML = isHidden
+      ? "Recommended Skincare Products ▼"
+      : "Recommended Skincare Products ▲";
+  }
+</script>
+
+</body>
+</html>

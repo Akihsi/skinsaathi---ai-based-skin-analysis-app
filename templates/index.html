@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skin Diagnosis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<!-- Logo + Heading -->
+<div class="header-container">
+  <h2 class="question-header"><br><br><br><br><br><br>Questionnaire</h2>
+</div>
+
+  <!-- Questionnaire -->
+  <form action="/upload" method="POST">
+
+    <label>Hydration — How many glasses of water do you drink daily?</label>
+    <select name="hydration" required>
+      <option value="">--Select--</option>
+      <option value="1">Less than 8</option>
+      <option value="2">8-10</option>
+      <option value="3">More than 10</option>
+    </select><br><br>
+
+    <label>Diet — How often do you consume fried/sugary foods?</label>
+    <select name="diet" required>
+      <option value="">--Select--</option>
+      <option value="1">Rarely</option>
+      <option value="2">Sometimes</option>
+      <option value="3">Often</option>
+      <option value="4">Daily</option>
+    </select><br><br>
+
+    <label>Sleep — How many hours do you sleep per night?</label>
+    <select name="sleep" required>
+      <option value="">--Select--</option>
+      <option value="1">Less than 5</option>
+      <option value="2">5-6</option>
+      <option value="3">7-8</option>
+      <option value="4">More than 8</option>
+    </select><br><br>
+
+    <label>Stress — Rate your stress level (1-10)</label>
+    <input type="number" name="stress" min="1" max="10" required><br><br>
+
+    <label>Pollution Exposure — Do you live in a highly polluted area?</label>
+    <select name="pollution" required>
+      <option value="">--Select--</option>
+      <option value="1">Yes</option>
+      <option value="2">No</option>
+    </select><br><br>
+
+    <label>Climate — Is your climate mostly humid, dry, or moderate?</label>
+    <select name="climate" required>
+      <option value="">--Select--</option>
+      <option value="1">Humid</option>
+      <option value="2">Dry</option>
+      <option value="3">Moderate</option>
+    </select><br><br>
+
+    <label>Skincare Routine — Do you regularly use sunscreen or moisturizer?</label>
+    <select name="routine" required>
+      <option value="">--Select--</option>
+      <option value="1">Yes</option>
+      <option value="2">No</option>
+    </select><br><br><br>
+
+    <input type="submit" value="Next: Upload Images">
+  </form>
+
+</body>
+</html>

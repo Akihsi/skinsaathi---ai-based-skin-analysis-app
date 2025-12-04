@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skin Diagnosis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    .hidden { display: none; }
+    video, canvas { max-width: 100%; display: block; margin: 10px 0; }
+    .mode-switch { margin: 10px 0 20px; }
+    .step-bubble { display:inline-block; padding:6px 10px; border-radius:20px; background:#eee; margin-right:8px; }
+    .step-bubble.active { background:#6db1ed; color:#fff; }
+  </style>
+</head>
+<body>
+<!-- Logo + Heading -->
+<div class="header-container">
+  <!--<img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="SkinSaathi" class="logo-image">-->
+  <h2 class="question-header"><br><br><br><br><br><br>Upload Image</h2>
+</div>
+
+<form action="/analyze" method="POST" enctype="multipart/form-data">
+
+   <!-- Mode switch -->
+
+    <div class="mode-switch">
+        <h2>Select Mode</h2>
+        <label><input type="radio" name="input_mode" value="upload" checked> Upload Images</label>
+        &nbsp;&nbsp;
+        <label><input type="radio" name="input_mode" value="camera"> Use Camera (Left → Right → Front)</label>
+    </div>
+    
+    <!-- A) Upload mode -->
+    <div id="upload-block">
+      <h2>Upload Face Images</h2>
+      <p>(Optional but better: upload 3 angles — left, right, front. Otherwise a single image is okay.)</p>
+      <label>Left face:</label>
+      <input type="file" name="left" accept="image/*"><br><br>
+
+      <label>Right face:</label>
+      <input type="file" name="right" accept="image/*"><br><br>
+
+      <label>Front face:</label>
+      <input type="file" name="front" accept="image/*"><br><br>
+
+      <strong>Or single image:</strong>
+      <input type="file" name="image" accept="image/*"><br><br>
+    </div>
+
+    <!-- B) Camera mode -->
+    <div id="camera-block" class="hidden">
+      <h2>Camera Capture</h2>
+      <div>
+        <span class="step-bubble" id="b-left">Left</span>
+        <span class="step-bubble" id="b-right">Right</span>
+        <span class="step-bubble" id="b-front">Front</span>
+      </div>
+      <p id="instruction">Start camera and turn your face to the <strong>LEFT</strong>. Then click “Capture”.</p>
+
+      <video id="video" autoplay playsinline></video>
+      <button type="button" id="startCam">Start Camera</button>
+      <button type="button" id="captureBtn" disabled>Capture</button>
+
+      <canvas id="canvas" class="hidden"></canvas>
+
+      <!-- hidden fields where base64 frames go -->
+      <input type="hidden" name="frame_left"  id="frame_left">
+      <input type="hidden" name="frame_right" id="frame_right">
+      <input type="hidden" name="frame_front" id="frame_front">
+    </div>
+
+    <br><br>
+    <button type="button" onclick="window.location.href='/'">Back to Questionnaire</button>
+<br><br>
+
+  <input type="submit" value="Submit for Analysis">
+  </form>
+
+  <script>
+    // mode toggle
+    const modeRadios = document.querySelectorAll('input[name="input_mode"]');
+    const uploadBlock = document.getElementById('upload-block');
+    const cameraBlock = document.getElementById('camera-block');
+
+    modeRadios.forEach(r => {
+      r.addEventListener('change', () => {
+        if (r.value === 'camera') {
+          uploadBlock.classList.add('hidden');
+          cameraBlock.classList.remove('hidden');
+        } else {
+          cameraBlock.classList.add('hidden');
+          uploadBlock.classList.remove('hidden');
+        }
+      });
+    });
+
+    // camera logic: single pass Left -> Right -> Front
+    const video = document.getElementById('video');
+    const startCam = document.getElementById('startCam');
+    const captureBtn = document.getElementById('captureBtn');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    const bubbles = {
+      left:  document.getElementById('b-left'),
+      right: document.getElementById('b-right'),
+      front: document.getElementById('b-front'),
+    };
+    const hidden = {
+      left:  document.getElementById('frame_left'),
+      right: document.getElementById('frame_right'),
+      front: document.getElementById('frame_front'),
+    };
+    const instruction = document.getElementById('instruction');
+
+    const steps = ['left','right','front'];
+    let stepIdx = 0;
+    function setActive() {
+      Object.keys(bubbles).forEach(k => bubbles[k].classList.remove('active'));
+      bubbles[steps[stepIdx]].classList.add('active');
+      const words = {left:"LEFT", right:"RIGHT", front:"FRONT"};
+      instruction.innerHTML = `Turn your face to the <strong>${words[steps[stepIdx]]}</strong> and click “Capture”.`;
+    }
+    setActive();
+
+    let stream = null;
+    startCam.addEventListener('click', async () => {
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+        video.srcObject = stream;
+        captureBtn.disabled = false;
+      } catch (e) {
+        alert("Unable to access camera: " + e);
+      }
+    });
+
+    captureBtn.addEventListener('click', () => {
+      if (!stream) return;
+
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      const dataUrl = canvas.toDataURL('image/jpeg'); // base64
+      const side = steps[stepIdx];
+      hidden[side].value = dataUrl;
+
+      stepIdx++;
+      if (stepIdx >= steps.length) {
+        // finished once — stop camera
+        if (stream) {
+          stream.getTracks().forEach(t => t.stop());
+        }
+        captureBtn.disabled = true;
+        startCam.disabled = true;
+        instruction.innerHTML = "Captured all three angles. You can now submit the form.";
+        Object.values(bubbles).forEach(b => b.classList.add('active'));
+      } else {
+        setActive();
+      }
+    });
+  </script>
+</body>
+</html>
